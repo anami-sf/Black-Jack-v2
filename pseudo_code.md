@@ -1,6 +1,6 @@
 # Blackjack
 
-![wireframe](public/wireframe.JPG)
+![wireframe](images/wireframe.JPG)
 
 [How to Play Blackjack](https://en.wikipedia.org/wiki/Blackjack)
 
