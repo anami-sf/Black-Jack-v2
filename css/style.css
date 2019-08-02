@@ -1,0 +1,54 @@
+* {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+element img {
+  width: 100%;
+}
+
+/* div:last-child {
+  margin: 0;
+} */
+
+/* @media only screen and (min-width: 768px) {
+	body {
+    height: 100vh;
+	  grid-template-columns: repeat(3, 10vmin);
+	  grid-template-rows: 15vmin 80vmin 80vmin 15vmin;
+	  grid-template-areas: 
+	    "hdr hdr"
+      "article1 article2"
+      "article3 article4"
+	    "ftr ftr";
+	}
+} */
+  
+element {
+  grid-area: hdr;
+  background-color: rgb(209, 59, 50);
+}
+  
+.clearfix:after {
+    display: block;
+    clear: both;
+    content: "";   
+}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start; /* Along Axis*/
+    align-items: stretch; /* Cross Axis*/
+    align-content: space-between;
+    /* flex-start, center, baseline */
+}
+
+element:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
